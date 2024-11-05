@@ -1,0 +1,49 @@
+export const numericCols = [
+  "EMP_CODIGO",
+  "COD_GRUPO",
+  "COD_SETOR_COMERCIAL",
+  "NUM_QUADRA",
+  "COD_ROTA_LEITURA",
+  "MATRICULA",
+  "SEQ_RESPONSAVEL",
+  "LTR_ATUAL",
+  "LTR_COLETADA",
+  "DAT_LEITURA",
+  "DIAS_LEITURA",
+  "VOLUME_ESTIMADO",
+];
+
+export const otherNumericCols = [
+    "CONS_MEDIDO",
+    "COD_LEITURA_INF_1",
+    "COD_LEITURA_INF_2",
+    "COD_LEITURA_INF_3",
+    "HORA_LEITURA",
+    "FATURADO_MEDIA",
+    "COD_LEITURA_INT",
+    "VOLUME_ESTIMADO_ACUM",
+    "STA_TROCA",
+    "EXCECAO",
+    "COD_LATITUDE",
+    "COD_LONGITUDE",
+]
+
+export const binaryCols = [
+  "ECO_RESIDENCIAL",
+  "ECO_COMERCIAL",
+  "ECO_INDUSTRIAL",
+  "ECO_PUBLICA",
+  "ECO_OUTRAS",
+  "FRAUDE",
+];
+
+export const categoricalCols = [
+  "TIPO_LIGACAO",
+  "CATEGORIA",
+  "SUB_CATEGORIA",
+  "DSC_OCORRENCIA",
+  "DSC_SIMULTANEA",
+  "STA_TROCA",
+  "EXCECAO",
+  "STA_ACEITA_LEITURA",
+];
